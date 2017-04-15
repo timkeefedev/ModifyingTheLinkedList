@@ -3,12 +3,12 @@ Compares the standard nested node structure versus a flat structure using the ob
 
 This project attempts to simulate people clicking on an object (an article, song, product, person) and immediately ranking the most often clicked objects. Tracking the ranks in a Linked List.
 
-When an object is clicked: 
-  Search for the object id in the List. 
-  If not found, then add it just before the tail. 
-  If found, then update its click count: 
-    Check to see if its position is now higher on the List. 
-    If rank changes, then update its position to reflect its popularity.
+When an object is clicked:
+1)  Search for the object id in the List. 
+2)  If not found, then add it just before the tail. 
+3)  If found, then update its click count: 
+4)  Check to see if its position is now higher on the List. 
+5)  If rank changes, then update its position to reflect its popularity.
 
 There are of 7 files:
 
